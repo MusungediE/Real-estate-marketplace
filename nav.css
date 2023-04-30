@@ -1,0 +1,50 @@
+.container{
+    text-align: center;
+    box-shadow: 5px 10px 18px #888888;
+    height: 330px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 180px;
+  
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.buying{
+    border-color: lightblue;
+    margin:auto;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightblue;
+   
+}
+
+.selling{
+    border-color: lightblue;
+    margin: auto;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightblue;
+   
+}
+
+.imgs{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.text{
+    margin-bottom: 200px;
+    color:royalblue;
+}

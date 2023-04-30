@@ -1,0 +1,250 @@
+
+body {
+  position: relative;
+  height: fit-content;
+}
+
+html{
+    position: relative;
+    height: 100%; 
+    scroll-behavior:smooth;
+}
+
+
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 1px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: visible;
+    background-color: white;
+
+}
+
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.links li a{
+    transition: all 0.2s ease 0s;
+}
+.links li a:hover{
+    color: royalblue;
+}
+
+.login-btn{
+    padding: 9px 25px;
+    background-color: royalblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.sign-btn{
+    padding: 9px 25px;
+    background-color: royalblue;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+
+
+
+#home{
+  
+    height: 550px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./homepage-imgs/hero-img.jpg);
+    
+    
+}
+
+.stroke-text{
+    -webkit-text-fill-color: white;
+    color: black;
+    background: rgba(0,0,0,0.8);
+    -webkit-text-stroke-width: 2px;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.home-text{
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+.services-container{
+    height: 390px;
+    margin-top: 200px;
+}
+
+#about{
+    height: 350px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+.about-pic{
+    width: 400px;
+    height: 300px;
+}
+.about-us-container{
+    height: 390px;
+    margin-top: 50px;
+}
+.about-left{
+    margin-left: 30px;
+}
+
+.about-right{
+    border-color: royalblue;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 24px;
+    height: 300px;
+    width: 700px;
+    margin-left: 120px;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+
+
+
+li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.services-container{
+    height: 390px;
+    margin-top: 50px;
+}
+
+#services{
+    height: 350px;
+    display: flex;
+    justify-content: center; 
+    flex-flow: row wrap;
+}
+
+
+.service-pics{
+    width: 170px;
+    height: 150px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.title2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.buy-service{
+    border-color: gray;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888888;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 24px;
+    height: 300px;
+    width: 300px;
+    transition: all 0.2s ease 0s;
+    
+    
+}
+
+.buy-service:hover{
+    background-color: coral;
+
+}
+
+
+
+.sell-service{
+    border-color: gray;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+    border-radius: 24px;
+    height: 300px;
+    width: 300px;
+    transition: all 0.2s ease 0s;
+}
+
+.sell-service:hover{
+    background-color: lightgreen;
+
+}
+
+.rent-service{
+    border-color: gray;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888888;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 24px;
+    height: 300px;
+    width: 300px;
+}
+
+.rent-service:hover{
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+    .title2{
+        margin-top: 400px;
+    }
+
+}
+
+
+
